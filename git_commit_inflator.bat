@@ -1,10 +1,4 @@
 @echo off
-:: Ensure only one instance of this script runs
-:: Create a unique mutex using a temporary file
-set "lockfile=%TEMP%\git_commit_inflator.lock"
-if exist "%lockfile%" exit
-echo %date% %time% > "%lockfile%"
-
 :: Change directory to the specified Git repository
 cd "C:\Github staging area\git comit inflator"
 
@@ -31,8 +25,3 @@ SET BRANCH=master
     :: Wait for 1 second before the next iteration
     timeout /t 1 >nul
 goto loop
-
-:: Cleanup the lockfile on exit
-:cleanup
-del "%lockfile%"
-exit
