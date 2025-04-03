@@ -1,6 +1,6 @@
 @echo off
 :: Change directory to the specified Git repository
-cd "C:\Github staging area\git comit inflator"
+cd "C:\Github staging area\How-to-inflate-your-commits-"
 
 :: Ensure the branch name is correct (replace master with your branch if needed)
 SET BRANCH=master
