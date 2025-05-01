@@ -28,7 +28,7 @@ SET BRANCH=master
     git add file.py
 
     :: Commit the changes with a message including the current timestamp
-    git commit -m "Inflated commit at %date% %time%"
+    git commit -m "Update made at %date% %time%"
 
     :: Push the commit to the correct branch
     git push origin %BRANCH%
