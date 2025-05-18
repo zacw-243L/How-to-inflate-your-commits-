@@ -819,3 +819,20 @@
 # NOTE: optimize later 
 # NOTE: optimize later 
 # NOTE: optimize later 
+# HACK: temporary patch 
+# TODO: add error handling 
+# HACK: temporary patch 
+# HACK: temporary patch 
+# TODO: add error handling 
+# TODO: add error handling 
+# NOTE: optimize later 
+# NOTE: optimize later 
+# TODO: add error handling 
+# REVIEW: check logic flow 
+# HACK: temporary patch 
+# HACK: temporary patch 
+# HACK: temporary patch 
+# FIXME: improve performance 
+# REVIEW: check logic flow 
+# HACK: temporary patch 
+# NOTE: optimize later 
