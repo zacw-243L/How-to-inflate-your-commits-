@@ -374,3 +374,24 @@
 # HACK: temporary patch 
 # HACK: temporary patch 
 # NOTE: optimize later 
+# NOTE: optimize later 
+# FIXME: improve performance 
+# FIXME: improve performance 
+# TODO: add error handling 
+# FIXME: improve performance 
+# REVIEW: check logic flow 
+# HACK: temporary patch 
+# FIXME: improve performance 
+# REVIEW: check logic flow 
+# NOTE: optimize later 
+# REVIEW: check logic flow 
+# TODO: add error handling 
+# HACK: temporary patch 
+# TODO: add error handling 
+# HACK: temporary patch 
+# FIXME: improve performance 
+# NOTE: optimize later 
+# NOTE: optimize later 
+# FIXME: improve performance 
+# NOTE: optimize later 
+# FIXME: improve performance 
