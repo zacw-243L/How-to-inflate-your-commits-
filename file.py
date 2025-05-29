@@ -845,3 +845,9 @@
 # NOTE: optimize later 
 # HACK: temporary patch 
 # REVIEW: check logic flow 
+# FIXME: improve performance 
+# TODO: add error handling 
+# FIXME: improve performance 
+# TODO: add error handling 
+# HACK: temporary patch 
+# TODO: add error handling 
