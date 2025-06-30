@@ -5,11 +5,22 @@ SET BRANCH=master
 
 git checkout %BRANCH%
 
+:: Step 1: Clear out the files
+echo. > "file.txt"
+echo. > "file.py"
+
+:: Step 2: Commit and push the cleared files
+git add file.txt file.py
+git commit -m "Clear out file.txt and file.py"
+git push origin %BRANCH%
+
+:: Step 3: Show current commit history
 echo -------------------------------
 echo Current commit history:
 git log --oneline
 echo -------------------------------
 
+:: Step 4: Squash all commits into one
 echo Finding root commit hash...
 git rev-list --max-parents=0 HEAD > root_commit.txt
 set /p FIRST_COMMIT=<root_commit.txt
@@ -37,7 +48,12 @@ IF %rand%==4 SET COMMENT=History collapsed
 :: Commit the changes with a random message
 git commit -m "%COMMENT%"
 
-:: Push the commit to the correct branch (force push required!)
+:: Force-push the squashed commit
 git push origin %BRANCH% --force
+
+echo -------------------------------
+echo Final commit history:
+git log --oneline
+echo -------------------------------
 
 pause
